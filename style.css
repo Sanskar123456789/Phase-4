@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    font-family:'Courier New', Courier, monospace;
+}
+header{
+    width:100%;
+    padding: 12px;
+    background-color: black;
+    color: white;
+    font-weight: 400;
+}
+
+header p {
+    margin-left: 45%;
+}
+
+.content{
+    width:60%;
+    margin-top: 5%;
+    margin-left: 10%;
+    padding: 30px;
+    background-color:whitesmoke;
+    box-shadow: 10px 25px 100px -24px;
+}
+
+.content button{
+    border:0;
+    padding:14px;
+    font-size: large;
+    border-radius:12px;
+    background-color:black;
+    color:white;
+    transition: .5s;
+    border: 2px solid rgb(248, 151, 151);
+}
+.content button:hover{
+    cursor: pointer;
+    transform: scale(1.2,1.2);
+}
+
+.content .quizques{
+    display: none;
+    background-color:black;
+    color:white;
+    padding:12px;
+}
+.content .button{
+    display: none;
+    background-color:black;
+    color:white;
+    padding:12px;
+}
+
+input{
+    border:0;
+    padding:9px;
+    font-size:small;
+    border-radius:7px;
+    transition:0.5s;
+    border: 2px solid rgb(248, 151, 151);
+    font-weight:bold;
+}
+
+input:hover{
+    cursor: pointer;
+    transform: scale(1.2,1.2);
+}
